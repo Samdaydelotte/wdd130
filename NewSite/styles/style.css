@@ -1,0 +1,47 @@
+<body>
+    <div id="content">
+        <header>
+        </footer>
+    </div>
+</body>
+
+body {
+    max-width: 800px; /* You can adjust the value to your desired maximum width */
+    margin: 0 auto;   /* This centers the content within the specified max-width */
+  }
+
+.container {
+    max-width: 800px; /* You can adjust the value to your desired maximum width */
+    margin: 0 auto;   /* This centers the container horizontally */
+  }
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: black;
+    color: #d9c2a3;
+}
+.icon {
+    width: 80px;
+}
+
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}   
+ 
+footer p {
+    font-size: 1.2em;
+ 
+    footer p a:hover {
+        text-decoration: underline;
+    }  

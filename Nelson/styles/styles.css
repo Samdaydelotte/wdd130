@@ -1,0 +1,43 @@
+* {
+    border: 2px solid red;;
+}
+
+body {
+    background-color: blue;
+}
+
+.nav_link {
+    padding: 10px;
+    color: blue ;
+    font-size: 1.3em;
+}
+h1 {
+    text-align: center;
+    color: white;
+}
+#text {
+    text-align: center;
+    color: white;
+}
+#sub_title {
+    color: rgb(201, 139, 24);
+}
+img {
+    width: 25%;
+}
+#image {
+    text-align: center;
+    
+}
+div p1 {
+    text-align: center;
+    display: block;
+}
+
+h2 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
