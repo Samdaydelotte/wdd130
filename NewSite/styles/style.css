@@ -220,6 +220,29 @@ footer a:hover {
 
 
 
+/*  */
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.column {
+  text-align: center;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+#supersecret {
+    display: grid;
+    place-items: center;
+    height: 100vh; /* Adjust the height as needed */
+}
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
